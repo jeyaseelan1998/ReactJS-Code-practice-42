@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.route-bg-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.route-bg-container-dark {
+  background-color: #000000;
+}
+
+.route-container {
+  flex-grow: 1;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.route-image {
+  width: 150px;
+}
+
+.route-name {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.route-name-dark {
+  color: #fff;
+}

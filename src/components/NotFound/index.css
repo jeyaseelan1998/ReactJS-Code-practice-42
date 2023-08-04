@@ -1,0 +1,13 @@
+.not-found--image {
+    width: 250px;
+}
+
+.not-found-description {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.not-found-description-dark {
+    color: #dcdcdc;
+}
